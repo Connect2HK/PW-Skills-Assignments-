@@ -1,0 +1,47 @@
+/* styles.css */
+
+.page-title {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page__description {
+    font-size: 1.5em;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.page__paragraph--intro {
+    font-size: 1.2em;
+    color: #666;
+    margin: 10px 20px;
+    line-height: 1.6;
+}
+
+.page__paragraph--skills {
+    font-size: 1.2em;
+    color: #444;
+    margin: 10px 20px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.page__paragraph--benefits {
+    font-size: 1.2em;
+    color: #222;
+    margin: 10px 20px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.page__paragraph--experience {
+    font-size: 1.2em;
+    color: #000;
+    margin: 10px 20px;
+    line-height: 1.6;
+    text-decoration: underline;
+}

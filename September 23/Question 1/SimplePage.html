@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemant Code</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS -->
+    <style>
+        .box {
+            background-color: lightblue; 
+            color: black; /* This will be overridden by inline CSS */
+        }
+
+        /* Internal CSS for unique class */
+        .internal {
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Paragraph -->
+    <p>PW Skills is a good platform for students.</p>
+
+    <!-- Inline CSS -->
+     <div class="box" style="background-color: yellow; color: red;">
+        This is a box with inline CSS.
+    </div>
+
+    <div class="box internal">
+        This is a box with internal CSS.
+    </div>
+
+    <div class="box external">
+        This is a box with external CSS.
+    </div>
+
+</body>
+</html>
