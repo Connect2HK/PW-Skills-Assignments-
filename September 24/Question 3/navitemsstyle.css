@@ -24,3 +24,52 @@ nav a{
 .nav a:hover{
     color : red;
 }
+
+nav li:nth-child(1) a {
+font-style: italic;
+color: whitesmoke;
+background-color: rgb(215, 205, 205);
+padding: 10px;
+border-bottom: 3px solid #ff0000;
+}
+
+nav li:nth-child(2) a {
+    font: bold;
+    border-radius: 3px;
+    text-decoration: double;
+    background-color: blueviolet;
+}
+
+nav li:nth-child(3) a {
+    font-size: 20px;
+    border-bottom: dotted;
+    border-radius: 2px;
+    background-color: chartreuse;
+
+}
+
+nav li:nth-child(4) a {
+    background-color: chocolate;
+    border-bottom-style:groove;
+    font-style:initial;
+    box-sizing: content-box;
+    border-color: aqua;
+    box-shadow: 7cqb;
+    border-style: solid;
+ 
+}
+nav li:nth-child(5) a {
+    background-size: contain;
+    background-blend-mode: hard-light;
+    background-color: yellow;
+    color: blue;
+
+}
+
+nav li:nth-child(5) a:hover {
+    background-color: #ff0000;
+    font-size: larger;
+    font:bolder;
+    color:yellow;
+    animation-duration: 2s;
+}
