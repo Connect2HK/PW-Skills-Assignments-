@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 0;
+    background-color: #f4f4f4;
+}
+
+.pId {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+}
+
+.heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    color: #333;
+    margin: 20px 0;
+}
+
+.useImg {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
