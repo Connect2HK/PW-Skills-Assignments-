@@ -1,0 +1,26 @@
+.nav{
+    padding:20px;
+    margin: 40px;
+    background-color: rgb(100, 165, 218);
+}
+
+nav ul{
+    padding: 10px;
+    margin:10px;
+    display: flex;
+    list-style-type: none;
+}
+
+nav li{
+    margin-right: 30px;
+}
+
+nav a{
+    color: white;
+    padding: 10px;
+    transition: color 0.3s;
+
+}
+.nav a:hover{
+    color : red;
+}
