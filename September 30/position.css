@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #90EE90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    border: 1px solid red;
+}
+
+#A {
+    left: 200px;
+    top: 200px;
+}
+
+#B {
+    left: calc(160px - 30px);
+    top: calc(200px - 75px);
+}
+
+#C {
+    left: calc(255px + 25px);
+    top: calc(200px - 75px);
+}
+
+#D {
+    left: calc(160px - 30px);
+    top: calc(218px + 50px);
+}
+
+#E {
+    left: calc(180px + 100px);
+    top: calc(240px + 30px);
+}
