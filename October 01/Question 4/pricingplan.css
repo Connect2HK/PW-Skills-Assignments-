@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 20px;
+}
+
+.pricing-card {
+    background-color: white;
+    /* border: 1.3px solid yellow; */
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card:hover{
+    background-color: rgba(1, 1, 33, 0.785);
+    color: white;
+
+}
+.pricing-card:hover .subscribe-btn {
+    background-color: white;
+    color: rgba(1, 1, 33, 0.785);
+}
+.pricing-card h2 {
+    margin: 0;
+    margin-right: 40px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pricing-card p {
+    margin: 10px;
+    margin-right: 18px;
+}
+
+.pricing-card .price {
+    font-size: 32px;
+    margin-right: 88px;
+}
+
+.pricing-card .features {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-card .features li {
+    margin: 5px 0;
+}
+
+.pricing-card .subscribe-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(1, 1, 33, 0.785);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.pricing-card:hover .features li::before{
+    color: rgb(1, 1, 33, 0.785);
+    
+}
+
+.features {
+    list-style: none;
+    padding:0;
+    margin-left: 0;
+    text-align:right;
+}
+
+.features li {
+    position: relative;
+    display:block;
+    padding: 2px;
+    width: 100%;
+    text-align:right;
+
+}
+
+.features li::before {
+    content: '✔';
+    color: rgb(1, 1, 33, 0.785);
+    background-color: white;
+    border: 1px solid rgb(1, 1, 33, 0.785);
+    border-radius: 50%;
+    width: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers the checkmark vertically */
+    position: absolute;
+    left: 12%;
+    top: 50%; /* Centers the checkmark vertically */
+    transform: translateY(-50%);
+}
+
+  
