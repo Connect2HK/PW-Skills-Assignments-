@@ -1,21 +1,27 @@
 .container {
     display: flex;
     flex-wrap: wrap;
+    width: 220px; 
+    padding: 10px;
+    background-color: lightgray; 
+    border: 2px solid gray; 
+    margin: 20px auto; 
+    justify-content: center;
   }
   
   .box {
-    width: 50px; /* Adjust based on your design */
-    height: 50px; /* Adjust based on your design */
+    width: 50px; 
+    height: 50px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px; /* Space between boxes */
-    color: white; /* Text color for visibility */
+    margin: 5px; 
+    color: white; 
   }
   
   .box1 {
     order: 7;
-    background-color: black; /* Odd number */
+    background-color: black; 
   }
   
   .box2 {
@@ -25,7 +31,7 @@
   
   .box3 {
     order: 1;
-    background-color: black; /* Odd number */
+    background-color: black; 
   }
   
   .box4 {
@@ -35,7 +41,7 @@
   
   .box5 {
     order: 3;
-    background-color: black; /* Odd number */
+    background-color: black; 
   }
   
   .box6 {
@@ -45,7 +51,7 @@
   
   .box7 {
     order: 5;
-    background-color: black; /* Odd number */
+    background-color: black; 
   }
   
   .box8 {
