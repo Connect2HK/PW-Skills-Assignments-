@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC Ticket Booking Clone</title>
+    <link rel="stylesheet" href="irctc.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="https://logos-world.net/wp-content/uploads/2020/11/IRCTC-Logo.png" alt="IRCTC Logo" class="logo-image">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2021/2/GI/JR/US/4184318/irctc-agentship-provider-500x500.png" alt="IRCTC Logo 2" class="logo-image">
+            </div> 
+            <div class="header-links">
+                <div class="upper-links">
+                    <span>Ask Disha</span>
+                    <span>Contact Us</span>
+                    <span>Alerts</span>
+                </div>
+                <div class="auth-links">
+                    <button>Login</button>
+                    <button>Register</button>
+                    <button>Agent Login</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="main-content">
+            <div class="booking-section">
+                <h1>Indian Railways</h1>
+                <p class="tagline">
+                    <span class="safety">Safety</span> 
+                    <span class="security">Security</span> 
+                    <span class="punctuality">Punctuality</span>
+                </p>
+                
+                <div class="buttons">
+                    <button class="primary">Book Ticket</button>
+                    <button>PNR Status</button>
+                    <button>Charts / Vacancy</button>
+                </div>
+
+                <form class="booking-form">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="from">From</label>
+                            <input type="text" id="from" value="Bangalore" readonly>
+                        </div>
+                        <div class="input-group">
+                            <label for="to">To</label>
+                            <input type="text" id="to" value="Kasaragod" readonly>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="date">Date</label>
+                            <input type="text" id="date" value="01 Aug 23" readonly>
+                        </div>
+                        <div class="input-group">
+                            <label for="class">Class</label>
+                            <input type="text" id="class" value="3A" readonly>
+                        </div>
+                        <div class="input-group">
+                            <label for="seat">Seat Type</label>
+                            <input type="text" id="seat" value="Tatkal" readonly>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="search-btn">Search Train</button>
+                </form>
+            </div>
+
+            <div class="train-images">
+                <img src="https://swarajya.gumlet.io/swarajya/2022-02/e1caf4d5-210c-40ee-8a3e-bc5e2e9a8fb6/Vande_Bharat_train_image.png?q=25&auto=format,compress&format=webp" alt="Train Image 1">
+                <img src="https://assets.architecturaldigest.in/photos/63218666b1c1612420a167b1/master/pass/fi%20(9).png" alt="Train Image 2">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
