@@ -1,61 +1,75 @@
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 220px; 
+    display: grid;
+    grid-template-columns: repeat(6, 60px); /* 6 boxes, each 60px wide */
+    grid-template-rows: 60px 60px; /* Two rows, each 60px tall */
+    gap: 10px; /* Space between the boxes */
+    justify-content: center; /* Center the grid */
+    background-color: white;
+    border: 2px solid black;
     padding: 10px;
-    background-color: lightgray; 
-    border: 2px solid gray; 
-    margin: 20px auto; 
-    justify-content: center;
+    width: fit-content; /* Shrink container to fit content */
   }
   
   .box {
-    width: 50px; 
-    height: 50px; 
+    width: 60px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px; 
-    color: white; 
+    font-size: 20px;
+    color: white;
+    background-color: lightgray; /* Default background for even numbers */
   }
   
   .box1 {
-    order: 7;
-    background-color: black; 
+    background-color: gray; /* Odd number */
+    grid-column: 1 / span 1; /* Position box 1 below 3 */
+    grid-row: 2 / 3;
   }
   
   .box2 {
-    order: 8;
-    background-color: lightblue;
+    background-color: lightgray;
+    color: black; /* Adjust text color for visibility */
+    grid-column: 2 / span 1; /* Position box 2 below 4 */
+    grid-row: 2 / 3;
   }
   
   .box3 {
-    order: 1;
-    background-color: black; 
+    background-color: gray;
+    grid-column: 1 / span 1;
+    grid-row: 1 / 2;
   }
   
   .box4 {
-    order: 2;
-    background-color: lightblue;
+    background-color: lightgray;
+    color: black;
+    grid-column: 2 / span 1;
+    grid-row: 1 / 2;
   }
   
   .box5 {
-    order: 3;
-    background-color: black; 
+    background-color: gray;
+    grid-column: 3 / span 1;
+    grid-row: 1 / 2;
   }
   
   .box6 {
-    order: 4;
-    background-color: lightblue;
+    background-color: lightgray;
+    color: black;
+    grid-column: 4 / span 1;
+    grid-row: 1 / 2;
   }
   
   .box7 {
-    order: 5;
-    background-color: black; 
+    background-color: gray;
+    grid-column: 5 / span 1;
+    grid-row: 1 / 2;
   }
   
   .box8 {
-    order: 6;
-    background-color: lightblue;
+    background-color: lightgray;
+    color: black;
+    grid-column: 6 / span 1;
+    grid-row: 1 / 2;
   }
   
