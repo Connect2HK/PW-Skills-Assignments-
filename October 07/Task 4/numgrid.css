@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    width: 50px; /* Adjust based on your design */
+    height: 50px; /* Adjust based on your design */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px; /* Space between boxes */
+    color: white; /* Text color for visibility */
+  }
+  
+  .box1 {
+    order: 7;
+    background-color: black; /* Odd number */
+  }
+  
+  .box2 {
+    order: 8;
+    background-color: lightblue;
+  }
+  
+  .box3 {
+    order: 1;
+    background-color: black; /* Odd number */
+  }
+  
+  .box4 {
+    order: 2;
+    background-color: lightblue;
+  }
+  
+  .box5 {
+    order: 3;
+    background-color: black; /* Odd number */
+  }
+  
+  .box6 {
+    order: 4;
+    background-color: lightblue;
+  }
+  
+  .box7 {
+    order: 5;
+    background-color: black; /* Odd number */
+  }
+  
+  .box8 {
+    order: 6;
+    background-color: lightblue;
+  }
+  
